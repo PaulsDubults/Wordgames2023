@@ -1,0 +1,89 @@
+.banner-area{
+    background-position: center center;
+    height: 100vh;
+    background: linear-gradient(45deg,rgb(255, 2, 2),#d2001a,hsl(201, 100%, 69%),#54f,#f48e21,hsl(53, 100%, 55%),#23d5ab,#ef0ba7,rgb(43, 251, 24));
+background-size: 300% 300%;
+animation: color 5s ease-in-out infinite;
+}
+@keyframes color{
+    0%{
+        background-position:0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+body{
+    margin:0;
+    padding: 0;
+}
+header{
+    padding: 15px 60px;
+}
+
+
+.logo{
+    text-decoration: none;
+color: white;
+font-size: 30px;
+font-family: big john;
+padding: 20px 0;
+width: 20%;
+float: left;
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+.banner-text h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    font-size: 55px;
+    color: white;
+}
+.banner-text p{
+    font-size: 22px;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.banner-text a{
+    text-decoration: none;
+    border: 1px solid white;
+    font-size: 17px;
+    padding: 10px 35px;
+    color: white;
+    display: inline-block;
+    margin-top: 5%;
+    font-family: puffy;
+    text-transform: uppercase;
+}
+.banner-text a:hover{
+    border-color: white;
+    background: #FFD700;
+    transition: 0.9s;
+    color: white;
+}
+button{
+    text-decoration: none;
+    border: 1px solid white;
+    font-size: 17px;
+    padding: 10px 35px;
+    color: white;
+    display: inline-block;
+    margin-top: 5%;
+    font-family: puffy;
+    text-transform: uppercase;
+}
+button :hover{
+    border-color: white;
+    background: #FFD700;
+    transition: 0.9s;
+    color: white;
+}
